@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App Ingles</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/estilos_reloj.css">
+</head>
+<body onload="link('link-home'),mostrarReloj()">
+    <div class="contenedor">
+        <header class="cabecero">
+            <a href="index.html" id="link-home" class=""><h1>English App</h1></a>
+            
+            <div id="reloj" class="">
+                <div class="reloj-contenedor" id="contenedor">
+                    <div id="hora"></div>
+                    <div id="fecha"></div>
+                </div>
+            </div>
+            <!-- <iframe src="reloj_digital/reloj.html" class="reloj" frameborder="none"></iframe> -->
+        </header>
+
+        <nav class="menu_verbos">
+            <a href="busqueda.html" id="link-busqueda">Busqueda</a> 
+            <a href="regulares.html" id="link-regulares">Regulares</a> 
+            <a href="irregulares.html" id="link-irregulares">Irregulares</a>
+        </nav>
+        <section class="seccion_instrucciones">
+            <h3>Bienvenido</h3>
+            <p>Esta es una aplicación para practicar los verbos regulares e irregulares del pasado simple de inglés.</p>
+            <h3>Instrucciones</h3>
+            <p>Solo debes poner el mouse encima del verbo y ver su conjugación con su respectiva traducción.</p>
+            <p>Podras memorizar y practicar los verbos las veces que quieras.</p>
+            <div class="contenedor_instruccion" id="contenedor_instruccion" title="Pasar_mouse_por_encima" >VERBO
+                <img src="images/click.gif" alt="click" title="Mover_mouse_al_verbo" id="gif_click" class="gif_click">
+            </div>
+            <br><br><br>
+            <p><strong>Suerte!!</strong></p>
+            <!-- <img src="images/click.gif" alt="click" title="Mover_mouse_al_verbo" class="gif_click"> -->
+        </section>
+    </div>
+    <footer>
+        <h2>Realizado por: Sebastian López</h2>
+        <h2>Proyecto propio</h2>
+    </footer>
+
+    <script src="js/verbosRegulares.js"></script>
+    <script src="js/verbosIrregulares.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/reloj.js"></script>
+</body>
+</html>

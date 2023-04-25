@@ -1,0 +1,70 @@
+
+    // VERBOS REGULARES
+
+const listaVerbosRegulares = [
+    "Act","Accept","Add","Amuse","Answer","Ask","Arrive",
+    "Balance","Bark","Behave","Belong","Believe",
+    "Call","Care","Change","Clean","Climb","Close","Complete","Count","Cook","Consider","Cry",
+    "Date","Dance","Dare","Deliver","Define","Die","Dress","Drop",
+    "End","Enjoy","Engage","Erase","Exchange","Exclaim","Explain","Expect",
+    "Fail","Fill","Fish","Finish","Fix","Follow",
+    "Gain","Guess",
+    "Happen","Help","Hunt","Hurry",
+    "Imagine","Intend",
+    "Jump",
+    "Kiss","Kill",
+    "Laugh","Like","Look","Love","Learn","Listen","Live",
+    "Miss","Manage","Marry","Measure","Move",
+    "Name","Need",
+    "Observe","Open","Order",
+    "Park","Pass","Perform","Phone","Plant","Plan","Play","Please","Point","Practice","Pray","Promise","Push",
+    "Rain","Repeat","Rest","Resist","Reach","Refuse","Realize","Receive","Remember","Rent","Reserve",
+    "Save","Search","Show","Sign","Smile","Smoke","Snow","Start","Stay","Stop","Step","Study","Switch","Suffer",
+    "Talk","Thank","Touch","Train","Travel","Try","Turn",
+    "Use","Visit","Wait","Walk","Watch","Wash","Wish","Work","Want"
+];
+const pasadoVerbosRegulares = [
+    "Acted","Accepted","Added","Amused","Answered","Asked","Arrived",
+    "Balanced","Barked","Behaved","Belonged","Believed",
+    "Called","Cared","Changed","Cleaned","Climbed","Closed","Completed","Counted","Cooked","Considered","Cried",
+    "Dated","Danced","Dared","Delivered","Defined","Died","Dressed","Dropped",
+    "Ended","Enjoyed","Engaged","Erased","Exchanged","Exclaimed","Explained","Expected",
+    "Failed","Filled","Fished","Finished","Fixed","Followed",
+    "Gained","Guessed",
+    "Happened","Helped","Hunted","Hurried",
+    "Imagined","Intended",
+    "Jumped",
+    "Kissed","Killed",
+    "Laughed","Liked","Looked","Loved","Learned","Listened","Lived",
+    "Missed","Managed","Married","Measured","Moved",
+    "Named","Needed",
+    "Observed","Opened","Ordered",
+    "Parked","Passed","Performed","Phoned","Planted","Planed","Played","Pleased","Pointed","Practiced","Prayed","Promised","Pushed",
+    "Rained","Repeated","Rested","Resisted","Reached","Refused","Realized","Received","Remembered","Rented","Reserved",
+    "Saved","Searched","Showed","Signed","Smiled","Smoked","Snowed","Started","Stayed","Stopped","Stepped","Studied","Switched","Suffered",
+    "Talked","Thanked","Touched","Trained","Travelled","Tried","Turned",
+    "Used","Visited","Waited","Walked","Watched","Washed","Wished","Worked","Wanted"
+
+];
+const traducirVerbosRegulares = [
+    "Actuar","Aceptar","Añadir","Entretener","Responder","Preguntar","Llegar",
+    "Balancear","Ladrar","Comportarse","Pertenecer","Creer",
+    "LLamar","Cuidar","Cambiar","Limpiar","Escalar","Cerrar","Completar","Contar","Cocinar","Considerar","LLorar",
+    "Citar","Bailar","Atreverse","Entregar","Definir","Morir","Vestir","Botar",
+    "Terminar","Disfrutar","Comprometer","Borrar","Intercambiar","Exclamar","Explicar","Esperar",
+    "Fracasar","Llenar","Pescar","Terminar","Arreglar","Seguir",
+    "Obtener","Suponer",
+    "Suceder","Ayudar","Cazar","Apurar",
+    "Imaginar","Intentar",
+    "Saltar",
+    "Besar","Matar", 
+    /*Reír*/ "Reir","Gustar","Mirar","Amar","Aprender","Escuchar","Vivir",
+    /*Extrañar/Perder*/ "Extrañar","Manejar","Casarse","Medir","Mover",
+    "Nombrar","Necesitar",
+    "Observar","Abrir","Ordenar",
+    "Estacionar","Pasar","Ejecutar","Llamar","Plantar","Planear","Jugar","Complacer","Señalar","Practicar","Rezar","Prometer","Empujar",
+    "Llover","Repetir","Descansar","Resistir","Alcanzar","Rehusar",/*"Darse cuenta"*/"DarseCuenta", "Recibir","Recordar","Rentar","Reservar",
+    "Ahorrar","Buscar","Mostrar","Firmar",/*Sonreír*/"Sonreir","Fumar","Nevar","Empezar","Quedarse","Detener","Avanzar","Estudiar","Cambiar","Sufrir",
+    "Hablar","Agradecer","Tocar","Entrenar","Viajar","Intentar","Voltear",
+    "Usar","Visitar","Esperar","Caminar","Ver","Lavar","Desear","Trabajar","Querer"
+];

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Busqueda</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body onload="link('link-busqueda')">
+    <div class="contenedor">
+        <header class="cabecero">
+            <a href="index.html" id="link-home" class=""><h1>English App</h1></a>
+        </header>
+
+        <nav class="menu_verbos">
+            <a href="busqueda.html" id="link-busqueda">Busqueda</a> 
+            <a href="regulares.html" id="link-regulares">Regulares</a> 
+            <a href="irregulares.html" id="link-irregulares">Irregulares</a>
+        </nav>
+        <section class="seccion_verbos">
+            <div>
+                <h3>SECCIÓN BUSQUEDA</h3>
+            </div>
+            <label for="buscarVerbo">Buscar verbo:<br>En su forma<br>Infinitiva en<br>Español o Inglés</label><br><br>
+            <input type="text" name="buscarVerbo" id="buscarVerbo" placeholder="Verbo en infinitivo:"></input>
+            <div class="contenedor-boton">
+                <button class="boton-buscar" onclick="buscarVerbo()"><span class="texto-boton">Buscar</span></button>
+            </div>
+
+            <div id="tipo"></div>
+            <div id="busqueda">
+                <div class="contenedor-loader">
+                    <div class="loader">
+                        <span style="--num:0"></span>
+                        <span style="--num:1"></span>
+                        <span style="--num:2"></span>
+                        <span style="--num:3"></span>
+                        <span style="--num:4"></span>
+                        <span style="--num:5"></span>
+                        <span style="--num:6"></span>
+                        <span style="--num:7"></span>
+                        <span style="--num:8"></span>
+                        <span style="--num:9"></span>
+                        <span style="--num:10"></span>
+                        <span style="--num:11"></span>
+                    </div>
+                    <p class="mensaje"><span class="material-symbols-outlined">search</span><br>
+                        Buscando<br>
+                        ...Verbo...</p>
+                </div>
+            </div>
+
+           <!-- <div class="contenedor-loader">
+                    <div class="loader"></div>
+                    <p class="mensaje">Loading...</p>
+                </div> -->
+
+        </section>
+    </div>
+    <footer>
+        <h2>Realizado por: Sebastian López</h2>
+        <h2>Proyecto propio</h2>
+    </footer>
+
+    <script src="js/verbosRegulares.js"></script>
+    <script src="js/verbosIrregulares.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
