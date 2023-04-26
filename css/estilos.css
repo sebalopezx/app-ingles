@@ -318,7 +318,7 @@ footer{
 .flecha_arriba{
     width: 70px;
     position: absolute;
-    bottom: 120px;
+    bottom: 140px;
     right: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -376,7 +376,7 @@ footer{
 
     footer{
         margin: auto;
-        margin-top: 50px;
+        margin-top: 40px;
         width: 80%;  
     }
     h2{
@@ -390,10 +390,19 @@ footer{
     }
 
     /* MEDIA tablas*/
+    table{
+        width: 98%;
+        margin-left: 0;
+        margin-right: 0;
+
+    }
+    th,td{
+        padding: 10px 1px;
+    }
     .table,th,td{
-        font-size: 1.1rem;
-        max-width: 80px;
-        text-align: center;
+        font-size: 0.7rem;
+        min-width: 2.7rem;
+        max-width: 3rem;
     }
 }
 
