@@ -31,13 +31,6 @@ header{
     width: 70%;
     margin: 15px auto;
 }
-/* APP RELOJ */
-.reloj{
-    width: 100%;
-    height: 100%;
-    border: none;
-    border-style: none;
-}
 
 /* MENU DE LINKS para busqueda y verbos */
 .menu_verbos{
@@ -340,6 +333,25 @@ footer{
 
 
 /* MEDIA */
+@media screen and (max-width: 740px) {
+    html{
+        min-width: 500px;
+    } 
+    .contenedor{
+        margin: 20px auto;
+        width: 100%;
+    }
+    header{
+        width: 100%;
+    }
+    h1{
+        font-size: 1.8rem;
+    }
+    .reloj-contenedor{
+        font-size: 2.5rem;
+    }
+}
+
 @media screen and (max-width: 500px){
     html{
         min-width: 380px;
@@ -347,7 +359,6 @@ footer{
     .contenedor{
         margin: 20px auto;
         width: 100%;
-
     }
     header{
         width: 100%;

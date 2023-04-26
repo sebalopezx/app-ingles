@@ -11,7 +11,8 @@ const mostrarReloj = () =>{
     let dia = fecha.getDate();
     let mes = meses[fecha.getMonth()];
     let año = fecha.getFullYear();
-    let fechaTexto =  `${diaSemana}, ${dia} ${mes} ${año}`;
+    let fechaTexto =  `${diaSemana}, ${dia}<sup>th</sup> ${mes} ${año}`;
+    
     document.getElementById("fecha").innerHTML = fechaTexto;
 
     document.getElementById("contenedor").classList.toggle("animar");
