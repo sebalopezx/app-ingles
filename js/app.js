@@ -338,27 +338,3 @@ const link = (link)=>{
 
 }
 
-// CAMBIO DE COLOR INSTRUCCION "GIF"
-const cambiarColorInstruccion = ()=>{
-    let elemento = document.getElementById("contenedor_instruccion");
-    if(elemento.style.background == "slateblue"){
-        elemento.style.background = "aqua";
-        elemento.style.color = "black";
-    }else{
-        elemento.style.background = "slateblue";  
-        elemento.style.color = "whitesmoke";
-    }  
-};
-// MOVIMIENTO INSTRUCCION "GIF"
-setInterval(cambiarColorInstruccion,1000);
-const moverFlecha = ()=>{
-    let gif = document.getElementById("gif_click");
-    if(gif.style.top == "-15px" && gif.style.right == "-50px"){
-        gif.style.top = "25px";
-        gif.style.right = "0px";
-    }else{
-        gif.style.top = "-15px";
-        gif.style.right = "-50px";
-    }
-}
-setInterval(moverFlecha,1000);

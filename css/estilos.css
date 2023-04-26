@@ -172,15 +172,6 @@ a:active{
     box-shadow: 0px 0px 3px 3px black;
     border: none;
 }
-/* REVISAR */
-.contenedor-boton:active::after{
-    width: 100px; 
-    margin: 20px auto; 
-}
-.boton-buscar:active::after{
-    background-color: slateblue;
-    transition: 0s;
-}
 
 /* Loader carga de tabla por busqueda */
 .loader{
@@ -346,3 +337,53 @@ footer{
     opacity: 1;
     box-shadow: 0px 0px 10px 4px aqua ;
 }
+
+
+/* MEDIA */
+@media screen and (max-width: 500px){
+    html{
+        min-width: 380px;
+    }
+    .contenedor{
+        margin: 20px auto;
+        width: 100%;
+
+    }
+    header{
+        width: 100%;
+    }
+    h1{
+        font-size: 1.2rem;
+    }
+    .menu_verbos{
+        width: 60%;
+    }
+    .menu_verbos a{
+        margin: auto;
+        font-size: 1.1rem;
+    }
+
+    footer{
+        margin: auto;
+        margin-top: 50px;
+        width: 80%;  
+    }
+    h2{
+        font-size: 1.3rem;
+    }
+
+    /* MEDIA busqueda*/
+    .contenedor-loader{
+        margin: auto;
+        transform: translate(-0%);
+    }
+
+    /* MEDIA tablas*/
+    .table,th,td{
+        font-size: 1.1rem;
+        max-width: 80px;
+        text-align: center;
+    }
+}
+
+
