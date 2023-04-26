@@ -379,6 +379,9 @@ footer{
         margin-top: 50px;
         width: 80%;  
     }
+    .flecha_arriba{
+        bottom: 120px;
+    }
     h2{
         font-size: 1.3rem;
     }
