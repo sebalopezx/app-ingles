@@ -1,7 +1,7 @@
 # Portafolio: "Sebastián López"
 `<link>` : <https://sebalopezx.github.io/app-ingles/>
 
-<img src="https://github.com/sebalopezx/app-ingles/blob/master/images/fondo_ingles.png" alt="Logo del proyecto" width="100" height="100">
+<img src="https://github.com/sebalopezx/app-ingles/blob/master/images/logo.png" alt="Logo del proyecto" width="60" height="60">
 
 
 ![Static Badge](https://img.shields.io/badge/Creador-Sebasti%C3%A1n_L%C3%B3pez-aqua) ![Static Badge](https://img.shields.io/badge/Versi%C3%B3n-1.0-aqua)
