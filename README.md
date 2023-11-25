@@ -27,7 +27,7 @@ Primer proyecto de estudio, pensado y creado para practicar y comprender la lóg
 
 > Dedicado para poner en práctica los conocimientos de las tecnologías utilizadas, además de practicar los verbos regulares e irregulares en inglés.
 
-El proyecto es uan interfaz simple e interactiva que tiene los verbos regulares e irregulares de inglés con todas sus conjugaciones, además tiene un buscador para buscar por una palabra en específico.
+El proyecto es una interfaz simple e interactiva que tiene los verbos regulares e irregulares de inglés con todas sus conjugaciones, además tiene un buscador para buscar por una palabra en específico.
 
 ## Uso
 
