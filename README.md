@@ -1,4 +1,4 @@
-# Portafolio: "Sebastián López"
+# Proyecto: "App Inglés"
 `<link>` : <https://sebalopezx.github.io/app-ingles/>
 
 <img src="https://github.com/sebalopezx/app-ingles/blob/master/images/logo.png" alt="Logo del proyecto" width="60" height="60">
