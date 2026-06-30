@@ -45,6 +45,15 @@ header{
     /*box-shadow: 8px 8px 15px aqua;*/
 }
 
+.linkv2{
+    color: black !important; 
+    transition: .5s;
+}
+.linkv2:hover{
+    color: aqua !important;
+    text-decoration: underline;
+}
+
 a:link{
     color: whitesmoke;
     text-decoration: none;

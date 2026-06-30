@@ -1,6 +1,7 @@
 
     // VERBOS REGULARES
 
+    
 const listaVerbosRegulares = [
     "Act","Accept","Add","Amuse","Answer","Ask","Arrive",
     "Balance","Bark","Behave","Belong","Believe",
