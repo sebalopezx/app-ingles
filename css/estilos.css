@@ -48,13 +48,14 @@ header{
 .linkv2{
     color: black !important; 
     transition: .5s;
+    margin-bottom: 5px;
 }
 .linkv2:hover{
     color: aqua !important;
     text-decoration: underline;
 }
 
-a:link{
+a:not(.linkv2):link{
     color: whitesmoke;
     text-decoration: none;
     display: inline-block;
